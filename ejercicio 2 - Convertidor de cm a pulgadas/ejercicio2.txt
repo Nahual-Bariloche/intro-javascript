@@ -1,0 +1,41 @@
+Hacer un convertidor de centímetros a pulgadas:
+
+
+	- definir funciones propias:
+
+	function nombreDeLaFuncion() 
+	{
+		[cuerpo de la funcion]
+	}
+
+
+	- tags <input, <button y <span de html
+
+		ingresar texto:
+			<input type="text" id="inputCm" />
+
+		botón: 
+			<button value="convertir" />
+
+		mostrar texto:	
+			<span id="spanPulgadas"></span>
+
+	- evento onclick:
+
+		<button onclick="nombreDeLaFuncion()" />
+
+
+	- variables en javascript:
+
+		var edad = 18;
+		var nombre = "Pepe";
+
+
+	- capturar el valor de un <input:
+
+		document.getElementById("inputCm").value
+
+
+	- setear el texto de un <span:
+
+		document.getElementById("spanPulgadas").innerText = pulgadas + ' pulgadas';
