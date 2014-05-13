@@ -1,0 +1,4 @@
+Hacer un "Hola mundo" con javascript.
+
+ - function alert(string)
+ - tag <script de html
